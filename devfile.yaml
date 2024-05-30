@@ -32,9 +32,9 @@ commands:
     workingDir: ${PROJECT_SOURCE}
   id: test
 components:
-- name: outerloop-build
-  image:
-    imageName: default-route-openshift-image-registry.apps-crc.testing/odo-dev/nodejs-app
+#- name: outerloop-build
+  #image:
+    #imageName: default-route-openshift-image-registry.apps-crc.testing/odo-dev/nodejs-app
       #dockerfile:
       #uri: ./Dockerfile
       #buildContext: ${PROJECTS_ROOT}
